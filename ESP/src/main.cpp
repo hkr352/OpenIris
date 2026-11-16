@@ -15,6 +15,10 @@ LEDManager ledManager(LED_BUILTIN);
 #elif CONFIG_CAMERA_MODULE_SWROOM_BABBLE_S3
 LEDManager ledManager(38);
 
+// add miya  261116
+#elif CONFIG_CAMERA_MODULE_TIMER_CAMERA_F
+LEDManager ledManager(2);
+
 #else
 LEDManager ledManager(33);
 #endif  // ESP32S3_XIAO_SENSE
