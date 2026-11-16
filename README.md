@@ -24,6 +24,7 @@ This project is now archived and in upkeep mode. A new version, built from groun
 - [x] LED status patterns - so that you know what's going on without plugging the tracker in to the PC
 - [x] Better OTA so that updates can be downloaded from github and pushed by the server to the tracker
 - [x] Streaming over USB on boards that support it (ESP32S3 / XIAO ESP32S3 Sense thanks to XadE#2410 and Seaweed#4353
+- [x] Added support for [TimerCamera-F(OV3660)](https://docs.m5stack.com/ja/unit/TimerCamera-F)
 
 ### TODO
 - [ ] streaming over sockets instead of HTTP MJPEG for faster streams!
